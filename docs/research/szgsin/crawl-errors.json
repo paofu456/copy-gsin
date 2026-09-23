@@ -1,0 +1,44 @@
+[
+  {
+    "url": "https://www.szgsin.com/article/hyzx.html",
+    "status": 200,
+    "contentType": "",
+    "error": ""
+  },
+  {
+    "url": "https://www.szgsin.com/search/",
+    "status": 500,
+    "contentType": "text/html",
+    "error": ""
+  },
+  {
+    "url": "https://www.szgsin.com/cdn-cgi/l/email-protection",
+    "status": 404,
+    "contentType": "text/html",
+    "error": ""
+  },
+  {
+    "url": "https://www.szgsin.com/",
+    "status": 0,
+    "contentType": "",
+    "error": "AbortError: This operation was aborted"
+  },
+  {
+    "url": "https://www.szgsin.com/article/gsry.html",
+    "status": 0,
+    "contentType": "",
+    "error": "AbortError: This operation was aborted"
+  },
+  {
+    "url": "https://www.szgsin.com/article/detail/143.html",
+    "status": 0,
+    "contentType": "",
+    "error": "AbortError: This operation was aborted"
+  },
+  {
+    "url": "https://www.szgsin.com/article/detail/173.html",
+    "status": 0,
+    "contentType": "",
+    "error": "AbortError: This operation was aborted"
+  }
+]

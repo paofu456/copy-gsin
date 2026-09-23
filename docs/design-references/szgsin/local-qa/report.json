@@ -1,0 +1,213 @@
+{
+  "pages": [
+    {
+      "name": "home",
+      "pathname": "/",
+      "viewport": {
+        "width": 1440,
+        "height": 900
+      },
+      "wait": 3500,
+      "status": 200,
+      "metrics": {
+        "title": "深圳金鑫绿建股份有限公司",
+        "bodyWidth": 1440,
+        "bodyHeight": 3865,
+        "viewportWidth": 1440,
+        "viewportHeight": 900,
+        "images": 13,
+        "incompleteImages": []
+      },
+      "consoleErrors": [],
+      "failedRequests": [],
+      "externalRequests": [],
+      "screenshot": "docs\\design-references\\szgsin\\local-qa\\home-1440.png"
+    },
+    {
+      "name": "company",
+      "pathname": "/page/gsjs.html",
+      "viewport": {
+        "width": 1440,
+        "height": 900
+      },
+      "status": 200,
+      "metrics": {
+        "title": "深圳金鑫绿建股份有限公司",
+        "bodyWidth": 1440,
+        "bodyHeight": 3067,
+        "viewportWidth": 1440,
+        "viewportHeight": 900,
+        "images": 10,
+        "incompleteImages": []
+      },
+      "consoleErrors": [],
+      "failedRequests": [],
+      "externalRequests": [],
+      "screenshot": "docs\\design-references\\szgsin\\local-qa\\company-1440.png"
+    },
+    {
+      "name": "product-list",
+      "pathname": "/article/gjg.html",
+      "viewport": {
+        "width": 1440,
+        "height": 900
+      },
+      "status": 200,
+      "metrics": {
+        "title": "深圳金鑫绿建股份有限公司",
+        "bodyWidth": 1440,
+        "bodyHeight": 1725,
+        "viewportWidth": 1440,
+        "viewportHeight": 900,
+        "images": 18,
+        "incompleteImages": []
+      },
+      "consoleErrors": [],
+      "failedRequests": [],
+      "externalRequests": [],
+      "screenshot": "docs\\design-references\\szgsin\\local-qa\\product-list-1440.png"
+    },
+    {
+      "name": "product-detail",
+      "pathname": "/article/detail/77.html",
+      "viewport": {
+        "width": 1440,
+        "height": 900
+      },
+      "status": 200,
+      "metrics": {
+        "title": "深圳金鑫绿建股份有限公司",
+        "bodyWidth": 1440,
+        "bodyHeight": 2362,
+        "viewportWidth": 1440,
+        "viewportHeight": 900,
+        "images": 18,
+        "incompleteImages": []
+      },
+      "consoleErrors": [],
+      "failedRequests": [],
+      "externalRequests": [],
+      "screenshot": "docs\\design-references\\szgsin\\local-qa\\product-detail-1440.png"
+    },
+    {
+      "name": "system",
+      "pathname": "/page/zpsgjgqbjztx.html",
+      "viewport": {
+        "width": 1440,
+        "height": 900
+      },
+      "status": 200,
+      "metrics": {
+        "title": "深圳金鑫绿建股份有限公司",
+        "bodyWidth": 1440,
+        "bodyHeight": 1998,
+        "viewportWidth": 1440,
+        "viewportHeight": 900,
+        "images": 9,
+        "incompleteImages": []
+      },
+      "consoleErrors": [],
+      "failedRequests": [],
+      "externalRequests": [],
+      "screenshot": "docs\\design-references\\szgsin\\local-qa\\system-1440.png"
+    },
+    {
+      "name": "news",
+      "pathname": "/article/gsxw.html",
+      "viewport": {
+        "width": 1440,
+        "height": 900
+      },
+      "status": 200,
+      "metrics": {
+        "title": "深圳金鑫绿建股份有限公司",
+        "bodyWidth": 1440,
+        "bodyHeight": 2224,
+        "viewportWidth": 1440,
+        "viewportHeight": 900,
+        "images": 12,
+        "incompleteImages": []
+      },
+      "consoleErrors": [],
+      "failedRequests": [],
+      "externalRequests": [],
+      "screenshot": "docs\\design-references\\szgsin\\local-qa\\news-1440.png"
+    },
+    {
+      "name": "contact",
+      "pathname": "/page/lxwm.html",
+      "viewport": {
+        "width": 1440,
+        "height": 900
+      },
+      "status": 200,
+      "metrics": {
+        "title": "深圳金鑫绿建股份有限公司",
+        "bodyWidth": 1440,
+        "bodyHeight": 1419,
+        "viewportWidth": 1440,
+        "viewportHeight": 900,
+        "images": 10,
+        "incompleteImages": []
+      },
+      "consoleErrors": [],
+      "failedRequests": [],
+      "externalRequests": [],
+      "screenshot": "docs\\design-references\\szgsin\\local-qa\\contact-1440.png"
+    },
+    {
+      "name": "home-mobile-crop",
+      "pathname": "/",
+      "viewport": {
+        "width": 390,
+        "height": 844
+      },
+      "wait": 2500,
+      "status": 200,
+      "metrics": {
+        "title": "深圳金鑫绿建股份有限公司",
+        "bodyWidth": 1220,
+        "bodyHeight": 3641,
+        "viewportWidth": 390,
+        "viewportHeight": 844,
+        "images": 13,
+        "incompleteImages": []
+      },
+      "consoleErrors": [],
+      "failedRequests": [],
+      "externalRequests": [],
+      "screenshot": "docs\\design-references\\szgsin\\local-qa\\home-mobile-crop-390.png"
+    },
+    {
+      "name": "contact-mobile-crop",
+      "pathname": "/page/lxwm.html",
+      "viewport": {
+        "width": 390,
+        "height": 844
+      },
+      "status": 200,
+      "metrics": {
+        "title": "深圳金鑫绿建股份有限公司",
+        "bodyWidth": 1220,
+        "bodyHeight": 1419,
+        "viewportWidth": 390,
+        "viewportHeight": 844,
+        "images": 10,
+        "incompleteImages": []
+      },
+      "consoleErrors": [],
+      "failedRequests": [],
+      "externalRequests": [],
+      "screenshot": "docs\\design-references\\szgsin\\local-qa\\contact-mobile-crop-390.png"
+    }
+  ],
+  "interaction": {
+    "fullPageEnabled": true,
+    "beforeWheel": "page1",
+    "afterWheel": "page2",
+    "wheelChangedSection": true,
+    "searchOpened": true,
+    "toolbarToggled": true,
+    "videoHref": "/media/external/1500047127.vod-qcloud.com/a2c1126cvodtranssh1500047127/88e6a67f5145403715468432165/v.f80000.mp4"
+  }
+}
