@@ -5,9 +5,11 @@
   "type": "module",
   "scripts": {
     "dev": "node scripts/serve-static.mjs public 4321",
+    "deploy:cloudflare": "wrangler deploy",
     "finalize": "node scripts/finalize-static.mjs public",
     "build": "npm run finalize && node scripts/check-static.mjs public && node scripts/build-static.mjs",
     "preview": "node scripts/serve-static.mjs dist 4321",
+    "preview:cloudflare": "wrangler preview",
     "check": "node scripts/check-static.mjs public",
     "qa": "node scripts/qa-static.mjs",
     "inspect:site": "node scripts/inspect-site.mjs",
@@ -15,8 +17,8 @@
     "retry:assets": "node scripts/retry-assets.mjs",
     "verify": "npm run build && node scripts/check-static.mjs dist"
   },
-  "dependencies": {},
   "devDependencies": {
-    "playwright": "^1.55.0"
+    "playwright": "^1.55.0",
+    "wrangler": "4.136.3"
   }
 }

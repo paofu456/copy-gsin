@@ -35,3 +35,24 @@ npm run qa
 - 原站字体端点持续返回 HTTP 500，因此少量图标使用本地 CSS 图形替代，避免坏链和空白方框。
 
 研究记录和原站参考截图位于 `docs/`，自动化验收报告位于 `docs/design-references/szgsin/local-qa/report.json`。
+
+## Cloudflare Workers 部署
+
+仓库包含 `wrangler.jsonc`，构建产物 `dist/` 作为 Workers Static Assets 发布。Cloudflare Workers Builds 连接本仓库后使用以下设置：
+
+```text
+生产分支：main
+构建命令：npm run build
+部署命令：npm run deploy:cloudflare
+预览命令：npm run preview:cloudflare
+根目录：留空
+```
+
+本地部署前可运行：
+
+```powershell
+npm run verify
+npm run deploy:cloudflare -- --dry-run
+```
+
+首页视频保持原 URL 路径，以适配 Workers 单个静态资源不超过 25 MiB 的限制进行了 720p H.264 压缩。
